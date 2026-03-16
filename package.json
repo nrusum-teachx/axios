@@ -56,9 +56,7 @@
     "test:vitest:watch": "vitest",
     "start": "node ./sandbox/server.js",
     "examples": "node ./examples/server.js",
-    "fix": "eslint --fix lib/**/*.js",
-    "prepare": "husky install && npm run prepare:hooks",
-    "prepare:hooks": "npx husky set .husky/commit-msg \"npx commitlint --edit $1\""
+    "fix": "eslint --fix lib/**/*.js"
   },
   "repository": {
     "type": "git",
